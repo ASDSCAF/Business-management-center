@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/beiji.jpg) top center no-repeat;
+	background-size: cover;
+	font-size: 12px;
+}
+.floater{
+	width: 620px;
+	height: 402px;
+    position: absolute;
+    left:40%;
+    top:40%;
+    margin-left:-100px;
+    margin-top:-100px;
+    border: 1px solid #efefef;
+}
+/*左边样式*/
+.left{
+	clear: both;
+	width: 380px;
+	height: 402px;
+	position: relative;
+	background: #fff;
+	float: left;
+}
+.left-top{
+	line-height: 50px;
+	right: 50px;
+	font-size: 16px;
+	padding-left: 50px;
+}
+.block{
+	display: block;
+	margin-top: 18px;
+	margin-left: 50px;
+
+}
+.left-top-name{
+	width: 270px;
+	height: 33px;
+	text-indent:30px;
+	background: url(../img/top-yh.jpg) no-repeat 9px 9px;
+}	
+.left-top-pwd{
+	width: 270px;
+	height: 33px;
+	text-indent:30px;
+	background: url(../img/top-mm.jpg) no-repeat 9px 9px;
+}
+.left-top-securitycode{
+	text-indent:10px;
+	width: 180px;
+	height: 33px;
+}
+.table-floet{
+	float: left;
+	margin-top: 5px;
+	margin-left: -5px;
+}
+.left-top-checkBox{
+
+	font-family: Tahoma;
+	vertical-align:middle;
+	margin-top: 12px;
+}
+.checkBox-label{
+	margin-bottom: 12px;
+}
+.left-top-button{
+	width: 86px;
+	height: 30px;
+	float: right;
+	margin-right: 60px;
+}
+
+/**/
+.left-top-img{
+	width: 80px;
+	height: 35px;
+	float: right;
+	margin-right: 60px;
+	/*margin-top: -5px;*/
+}
+
+.left-bottom{
+	display: inline-block;
+	width: 380px;
+	height: 44px;
+	margin-top: 125px;
+	background: #efefef;
+	bottom: 0px;
+}
+.a{
+	text-decoration: none;
+	color: #4593ff;
+}
+.left-bottom-a1{
+	margin-top: 15px;
+	margin-left: 50px;
+	float: left;
+	font-size: 14px;
+}
+.left-bottom-a2{
+	margin-top: 15px;
+	margin-right: 60px;
+	float: right;
+	font-size: 14px;
+}
+
+/*右边样式*/
+
+.right{
+
+	float: right;
+	width: 240px;
+	height: 402px;
+	background: #333;
+	text-align: center;
+	font-size: 14px;
+}
+.right-size{
+	display: inline-block;
+	border-radius:2px;
+	color: #fff;
+	padding: 14px 44px 14px 70px;
+}
+.a2{
+	text-decoration: none;
+}
+.right-qq{
+	margin-top: 86px;
+	content: ' ';
+	background: url(../img/qq.jpg) no-repeat 44px #4593ff;
+
+
+}
+.right-wb-top{
+	margin-top: 28px;
+
+}
+.right-wb{
+	background:url(../img/wb.jpg) no-repeat 40px #63bf63;
+}
+.right-wx{
+	background:url(../img/wx.jpg) no-repeat 40px #f54321;
+}
