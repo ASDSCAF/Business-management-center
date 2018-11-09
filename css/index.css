@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(../img/beiji.jpg) top center no-repeat;
+	background: url(../img/beiji.jpg) top center repeat;
 	background-size: cover;
 	font-size: 12px;
 }
@@ -87,7 +87,7 @@ body{
 	display: inline-block;
 	width: 380px;
 	height: 44px;
-	margin-top: 125px;
+	margin-top: 74px;
 	background: #efefef;
 	bottom: 0px;
 }
